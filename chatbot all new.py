@@ -193,7 +193,7 @@ def init_or_update_model():
     if not api_key:
         try:
             if "GEMINI_API_KEY" in st.secrets:
-                api_key = st.secrets["GEMINI_API_KEY"]
+                api_key = st.secrets["AQ.Ab8RN6IYlREPIUmJpbTR3tmDk10XRw7kU6Hwnv3ipPckqr6-WA"]
             elif "GOOGLE_API_KEY" in st.secrets:
                 api_key = st.secrets["GOOGLE_API_KEY"]
         except Exception:
